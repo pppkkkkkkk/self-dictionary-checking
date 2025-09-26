@@ -1,14 +1,4 @@
 def count_extended_words_set(word_list):
-    """
-    Counts the number of words in the list that are extensions
-    (i.e., start with) of another *shorter* word in the list.
-
-    Args:
-        word_list: A list of strings.
-
-    Returns:
-        The total count of extended words.
-    """
     # 1. Store all words in a set for O(1) average-time lookups.
     word_set = set(word_list)
     count = 0
